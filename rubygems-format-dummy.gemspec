@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "rubygems-format-dummy"
   spec.version       = Rubygems::Format::Dummy::VERSION
   spec.authors       = ["Masayuki Ataka"]
-  spec.email         = ["ataka@actindi.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["masayuki.ataka@gmail.com"]
+  spec.description   = %q{dummy rubygems/format.rb}
+  spec.summary       = %q{dummy rubygems/format.rb}
   spec.homepage      = ""
   spec.license       = "MIT"
 
