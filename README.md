@@ -1,6 +1,16 @@
 # Rubygems::Format::Dummy
 
-TODO: Write a gem description
+When you start chef-solo with ruby 2.0.0,
+then following error orrurs.
+
+    /Users/ataka/project/chef/vendor/bundle/ruby/2.0.0/gems/chef-11.4.4/lib/chef/provider/package/rubygems.rb:34:in `require': cannot load such file -- rubygems/format (LoadError)
+
+This dummy gem file prevents above errors.
+A sample Gemfile follows:
+
+    source 'https://rubygems.org'
+    gem 'chef'
+    gem 'rubygems-format-dummy', :git => 'git://github.com/ataka/rubygems-format-dummy.git'
 
 ## Installation
 
